@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AirCommerce</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <ul>
+          <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+          <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+          <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+          <li><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+        </ul>
+        <p>FREE SHIPPING THIS WEEK ORDER OVER &#x20B9;500</p>
+        <div class="price-lan">
+          <select name="price" id="#price">
+            <option value="">INR &#x20B9;</option>
+            <option value="">USD</option>
+          </select>
+          <select name="language" id="#lan">
+            <option value="">ENGLISH</option>
+            <option value="">TELUGU</option>
+            <option value="">KANNADA</option>
+            <option value="">HINDI</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <!-- header container with search bar and cart -->
+    <div class="header-2">
+      <div class="header-container-2">
+        <h1>AirCommerce</h1>
+        <div class="search-box">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter your product name.."
+          />
+          <div><i class="fa fa-search" aria-hidden="true"></i></div>
+        </div>
+        <ul>
+          <li><i class="fa fa-user" aria-hidden="true"></i></li>
+          <li style="position: relative">
+            <i class="fa fa-heart-o" aria-hidden="true"></i
+            ><span class="fav">0</span>
+          </li>
+          <li style="position: relative">
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i
+            ><span class="fav">0</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Navigation bar -->
+    <ul class="nav-bar">
+      <li>HOME</li>
+      <li>CATEGORIES</li>
+      <li>MEN'S</li>
+      <li>WOMEN'S</li>
+      <li>JEWELELRY</li>
+      <li>PERFUME</li>
+      <li>BLOG</li>
+      <li>HOT OFFERS</li>
+    </ul>
+    <!-- main banner -->
+    <div class="banner">
+      <div class="banner-text">
+        <p class="trend">Trending Item</p>
+        <h1>WOMEN'S LATEST FASHION SALE</h1>
+        <p>
+          starting at &#x20B9;<span style="font-size: 2rem; font-weight: bold"
+            >200</span
+          >.00
+        </p>
+        <button>SHOP NOW</button>
+      </div>
+    </div>
+    <!-- small banners -->
+    <div class="smallbanner-container">
+      <div class="small-container" style="padding: 5px">
+        <div class="img-div">
+          <img src="./images/icons/dress.svg" alt="" />
+        </div>
+        <div class="text">
+          <h3>DRESS & FROCK</h3>
+          <p>Show All</p>
+        </div>
+        <div class="num">(53)</div>
+      </div>
+      <div class="small-container" style="padding: 5px">
+        <div class="img-div">
+          <img src="./images/icons/coat.svg" alt="" />
+        </div>
+        <div class="text">
+          <h3>WINTER WEAR</h3>
+          <p>Show All</p>
+        </div>
+        <div class="num">(53)</div>
+      </div>
+      <div class="small-container" style="padding: 5px">
+        <div class="img-div">
+          <img src="./images/icons/glasses.svg" alt="" />
+        </div>
+        <div class="text">
+          <h3>GLASSES & LENS</h3>
+          <p>Show All</p>
+        </div>
+        <div class="num">(53)</div>
+      </div>
+      <div class="small-container" style="padding: 5px">
+        <div class="img-div">
+          <img src="./images/icons/shorts.svg" alt="" />
+        </div>
+        <div class="text">
+          <h3>SHORTS & JEANS</h3>
+          <p>Show All</p>
+        </div>
+        <div class="num">(53)</div>
+      </div>
+    </div>
+    <!-- CATEGORY CONTAINER -->
+    <main class="main-category">
+      <aside class="category-container">
+        <h3 style="margin: 2vh 0">CATEGORY</h3>
+        <div class="category">
+          <div class="category-img">
+            <img src="images/icons/coat.svg" alt="" />
+          </div>
+          <div>
+            <p>Clothes</p>
+          </div>
+          <div style="margin-left: auto">+</div>
+        </div>
+        <div class="category">
+          <div class="category-img">
+            <img src="images/icons/shoes.svg" alt="" />
+          </div>
+          <div>
+            <p>Footwear</p>
+          </div>
+          <div style="margin-left: auto">+</div>
+        </div>
+        <div class="category">
+          <div class="category-img">
+            <img src="images/icons/jewelry.svg" alt="" />
+          </div>
+          <div>
+            <p>Jewellery</p>
+          </div>
+          <div style="margin-left: auto">+</div>
+        </div>
+        <div class="category">
+          <div class="category-img">
+            <img src="images/icons/bag.svg" alt="" />
+          </div>
+          <div>
+            <p>Bags</p>
+          </div>
+          <div style="margin-left: auto">+</div>
+        </div>
+        <div class="category">
+          <div class="category-img">
+            <img src="images/icons/glasses.svg" alt="" />
+          </div>
+          <div>
+            <p>Glasses</p>
+          </div>
+          <div style="margin-left: auto">+</div>
+        </div>
+        <div class="category">
+          <div class="category-img">
+            <img src="images/icons/cosmetics.svg" alt="" />
+          </div>
+          <div>
+            <p>Cosmetics</p>
+          </div>
+          <div style="margin-left: auto">+</div>
+        </div>
+        <div class="category">
+          <div class="category-img">
+            <img src="images/icons/perfume.svg" alt="" />
+          </div>
+          <div>
+            <p>Perfume</p>
+          </div>
+          <div style="margin-left: auto">+</div>
+        </div>
+        <!-- Best Sellers -->
+        <h3 style="padding: 3%; margin-top: 10%">BEST SELLERS</h3>
+        <div class="newarrivals-catergory">
+          <div class="new-arrivals">
+            <img src="images/icons/shoes.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/hat.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/tee.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/jacket.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- New Arrivals Trending Top Rated category -->
+      <div class="items-main-category">
+        <div class="newarrivals-catergory">
+          <h3>New Arrivals</h3>
+          <div class="new-arrivals">
+            <img src="images/icons/jacket.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/dress.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/cosmetics.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/glasses.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="newarrivals-catergory">
+          <h3>Top Rated</h3>
+          <div class="new-arrivals">
+            <img src="images/icons/bag.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/hat.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/tee.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/shoes.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="newarrivals-catergory">
+          <h3>Trending</h3>
+          <div class="new-arrivals">
+            <img src="images/icons/watch.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/perfume.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/jewelry.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="new-arrivals">
+            <img src="images/icons/shorts.svg" alt="" />
+            <div class="newarrivals-text">
+              <h4>Relaxed Full Sleeve</h4>
+              <p class="cat">Clothes</p>
+              <p class="pink-color">
+                &#x20B9;45.00
+                <span style="text-decoration: line-through" class="cat"
+                  >&#x20B9;30.00</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="product-category">
+          <h3
+            style="
+              border-bottom: 1px solid rgb(226, 226, 226);
+              padding-bottom: 5px;
+            "
+          >
+            Deal Of The Day
+          </h3>
+          <div class="deal-div">
+            <div style="display: flex">
+              <img src="images/products/shampoo.jpg" width="100%" alt="" />
+            </div>
+            <div class="rightside-text">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <h5 style="padding: 10px 0 0px 0">
+                SHAMPOO, CONDITIONER & FACEWASH PACKS
+              </h5>
+              <p style="padding: 8px 0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium, doloribus Lorem ipsum dolor sit amet.
+              </p>
+              <strong style="color: rgb(255, 113, 135); font-size: 22px"
+                >&#x20B9;150.00</strong
+              >
+              <span
+                style="
+                  color: rgb(180, 180, 180);
+                  font-size: 22px;
+                  text-decoration-line: line-through;
+                  margin-left: 10px;
+                "
+                >&#x20B9;200.00</span
+              >
+              <br />
+              <button>ADD TO CART</button>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  font-size: 14px;
+                "
+              >
+                <div>ALREADY SOLD: <b>20</b></div>
+                <div>AVAILABLE: <b>40</b></div>
+              </div>
+
+              <hr class="hr1" />
+
+              <p style="font-size: 12px; font-weight: bold">
+                HURRY UP! OFFER ENDS IN:
+              </p>
+              <div class="small-square-div">
+                <div class="small-square"><strong>360</strong><br />Days</div>
+                <div class="small-square"><strong>24</strong><br />Hours</div>
+                <div class="small-square"><strong>59</strong><br />Min</div>
+                <div class="small-square"><strong>00</strong><br />Sec</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- New Products -->
+        <h3>New Products</h3>
+        <div class="newproducts-container">
+          <div class="new-products">
+            <img src="images/products/jacket-1.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/jacket-2.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/jacket-3.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/jacket-4.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/jacket-5.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/jacket-6.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/shoe-1_1.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/jacket-3.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/shoe-2_1.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/sports-3.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/party-wear-1.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+          <div class="new-products">
+            <img src="images/products/sports-4.jpg" alt="" />
+            <p class="pink-color">JACKET</p>
+            <p class="cat">Mens Winter Leather Jackets</p>
+            <div style="display: flex">
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                aria-hidden="true"
+                style="font-size: 15px; color: orange"
+              ></i>
+              <i
+                class="fa fa-star-o"
+                style="font-size: 15px; color: orange"
+              ></i>
+            </div>
+
+            <p style="font-weight: bold">
+              &#x20B9;30.00
+              <span style="text-decoration: line-through" class="cat"
+                >&#x20B9;45.00</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Bottom Section Starts here -->
+    <section class="main-section">
+      <div class="top-section">
+        <div class="testimonial">
+          <h3 class="test-head">Testimonial</h3>
+          <div class="testimonial-profile">
+            <img class="section-img" src="images/testimonial-1.jpg" alt="" />
+            <h3 style="padding: 2%; color: black">ALAN DOE</h3>
+            <p>CEO & Founder Invision</p>
+            <img class="section-quote" src="images/icons/quotes.svg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,
+              impedit?
+            </p>
+          </div>
+        </div>
+        <div class="cta-banner">
+          <div class="discount-banner">
+            <p class="discount">25% DISCOUNT</p>
+            <h1>Summer Collection</h1>
+            <p>STARTING @ &#8377;10</p>
+            <h3>SHOP NOW</h3>
+          </div>
+        </div>
+        <div class="services">
+          <h3 class="test-head">Our Services</h3>
+          <div class="services-section">
+            <div class="our-services">
+              <i
+                class="fa fa-ship"
+                aria-hidden="true"
+                style="font-size: 25px; color: lightpink; margin: 5%"
+              ></i>
+              <div>
+                <p style="font-size: 14px; font-weight: bold; color: gray">
+                  Worldwide Delivery
+                </p>
+                <p style="font-size: 12px; color: gray">
+                  For order over &#8377;100
+                </p>
+              </div>
+            </div>
+            <div class="our-services">
+              <i
+                class="fa fa-rocket"
+                style="font-size: 40px; color: lightpink; margin: 5%"
+              ></i>
+              <div>
+                <p style="font-size: 14px; font-weight: bold; color: gray">
+                  Worldwide Delivery
+                </p>
+                <p style="font-size: 12px; color: gray">
+                  For order over &#8377;100
+                </p>
+              </div>
+            </div>
+            <div class="our-services">
+              <i
+                class="fa fa-phone"
+                aria-hidden="true"
+                style="font-size: 40px; color: lightpink; margin: 5%"
+              ></i>
+              <div>
+                <p style="font-size: 14px; font-weight: bold; color: gray">
+                  Worldwide Delivery
+                </p>
+                <p style="font-size: 12px; color: gray">
+                  For order over &#8377;100
+                </p>
+              </div>
+            </div>
+            <div class="our-services">
+              <i
+                class="fa fa-ticket"
+                aria-hidden="true"
+                style="font-size: 25px; color: lightpink; margin: 5%"
+              ></i>
+              <div>
+                <p style="font-size: 14px; font-weight: bold; color: gray">
+                  Worldwide Delivery
+                </p>
+                <p style="font-size: 12px; color: gray">
+                  For order over &#8377;100
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-section">
+        <div class="bottom-section-1">
+          <img src="images/blog-1.jpg" alt="" />
+          <p class="pink-color">Fashion</p>
+          <p style="font-weight: bold">
+            Clothes Retail KPIs 2021 guide for clothes Executives
+          </p>
+          <p class="cat">By Mr Admin/ Apr 06, 2022</p>
+        </div>
+        <div class="bottom-section-1">
+          <img src="images/blog-2.jpg" alt="" />
+          <p class="pink-color">Clothes</p>
+          <p style="font-weight: bold">
+            Clothes Retail KPIs 2021 guide for clothes Executives
+          </p>
+          <p class="cat">By Mr Admin/ Apr 06, 2022</p>
+        </div>
+        <div class="bottom-section-1">
+          <img src="images/blog-3.jpg" alt="" />
+          <p class="pink-color">Shoes</p>
+          <p style="font-weight: bold">
+            Clothes Retail KPIs 2021 guide for clothes Executives
+          </p>
+          <p class="cat">By Mr Admin/ Apr 06, 2022</p>
+        </div>
+        <div class="bottom-section-1">
+          <img src="images/blog-4.jpg" alt="" />
+          <p class="pink-color">Electronics</p>
+          <p style="font-weight: bold">
+            Clothes Retail KPIs 2021 guide for clothes Executives
+          </p>
+          <p class="cat">By Mr Admin/ Apr 06, 2022</p>
+        </div>
+      </div>
+    </section>
+    <!-- footer section starts here -->
+    <footer>
+      <div class="brand-directory">
+        <h4>BRAND DIRECTORY</h4>
+        <ul>
+          <li style="font-weight: bold; margin-right: 15px">FASHION:</li>
+          <li>T-shirt |</li>
+          <li>Shirts |</li>
+          <li>Shorts & Jeans |</li>
+          <li>Jacket |</li>
+          <li>Dress & Frock |</li>
+          <li>Innerwear |</li>
+          <li>Hosiery</li>
+        </ul>
+        <ul>
+          <li style="font-weight: bold; margin-right: 15px">ELECTRONIC:</li>
+          <li>T-shirt |</li>
+          <li>Shirts |</li>
+          <li>Shorts & Jeans |</li>
+          <li>Jacket |</li>
+          <li>Dress & Frock |</li>
+          <li>Innerwear |</li>
+          <li>Hosiery</li>
+        </ul>
+        <ul>
+          <li style="font-weight: bold; margin-right: 15px">JEWELLERY:</li>
+          <li>T-shirt |</li>
+          <li>Shirts |</li>
+          <li>Shorts & Jeans |</li>
+          <li>Jacket |</li>
+          <li>Dress & Frock |</li>
+          <li>Innerwear |</li>
+          <li>Hosiery</li>
+        </ul>
+        <ul>
+          <li style="font-weight: bold; margin-right: 15px">COSMETICS:</li>
+          <li>T-shirt |</li>
+          <li>Shirts |</li>
+          <li>Shorts & Jeans |</li>
+          <li>Jacket |</li>
+          <li>Dress & Frock |</li>
+          <li>Innerwear |</li>
+          <li>Hosiery</li>
+        </ul>
+      </div>
+      <hr />
+      <section class="popular-cat">
+        <div class="contact">
+          <h4 style="color: white">POPULAR CATEGORIES</h4>
+          <ul class="popular">
+            <li>Fashion</li>
+            <li>Electronic</li>
+            <li>Cosmetic</li>
+            <li>Health</li>
+            <li>Watches</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h4 style="color: white">PRODUCTS</h4>
+          <ul class="popular">
+            <li>Fashion</li>
+            <li>Electronic</li>
+            <li>Cosmetic</li>
+            <li>Health</li>
+            <li>Watches</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h4 style="color: white">OUR COMPANY</h4>
+          <ul class="popular">
+            <li>Fashion</li>
+            <li>Electronic</li>
+            <li>Cosmetic</li>
+            <li>Health</li>
+            <li>Watches</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h4 style="color: white">SERVICES</h4>
+          <ul class="popular">
+            <li>Fashion</li>
+            <li>Electronic</li>
+            <li>Cosmetic</li>
+            <li>Health</li>
+            <li>Watches</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h4 style="color: white">CONTACT</h4>
+          <ul class="popular">
+            <li>#48 1st Cross</li>
+            <li>Marthahalli, Ambedkar Circle</li>
+            <li>Bangalore</li>
+            <li>(+91)080-234567</li>
+            <li>example@gmail.com</li>
+          </ul>
+        </div>
+      </section>
+      <hr />
+      <!-- copyright section -->
+      <section class="cards-section">
+        <img src="images/cards/visa-4.png" alt="" />
+        <img src="images/cards/paypal.png" alt="" />
+        <img src="images/cards/skrill.png" alt="" />
+        <img src="images/cards/maestro.png" alt="" />
+      </section>
+      <p style="color: grey; text-align: center; margin-bottom: 30px">
+        Copyright &#169; AirCommerce All Rights Reserved.
+      </p>
+    </footer>
+  </body>
+</html>
