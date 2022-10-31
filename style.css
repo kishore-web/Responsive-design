@@ -17,7 +17,7 @@
   color: var(--colorgray);
   font-size: 0.8rem;
 }
- header .header-container {
+header .header-container {
   display: flex;
   justify-content: space-between;
   margin: 5px auto;
@@ -369,12 +369,16 @@ header {
   margin: 0 2vw;
 }
 .discount-banner {
+  font-size: 1rem;
   text-align: center;
   width: 40%;
   background-color: white;
   opacity: 0.8;
   border-radius: 5px;
   padding: 8%;
+}
+.discount-banner h1 {
+  font-size: 1rem;
 }
 .discount {
   padding: 5px 2px;
@@ -490,7 +494,6 @@ hr {
   .header-container p {
     font-size: 1.5vh;
   }
-  
   .price-lan {
     display: none;
   }
@@ -580,14 +583,15 @@ hr {
   }
 }
 /* Responsive web design for tabs */
-@media screen and (max-width: 820px) {
+
+@media screen and (min-width: 450px) and (max-width: 820px) {
   .header-container ul {
     display: none;
   }
   .header-container p {
     font-size: 1.5vh;
   }
-  
+
   .price-lan {
     display: flex;
   }
@@ -672,7 +676,7 @@ hr {
     gap: 1.5vw;
   }
   .bottom-section-1 {
-    width: 290px;
+    width: 180px;
   }
   .popular-cat {
     display: flex;
@@ -684,5 +688,4 @@ hr {
     width: 15%;
     border-radius: 3px;
   }
-
 }
